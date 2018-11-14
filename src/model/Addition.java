@@ -3,6 +3,8 @@ package model;
 import interfaces.OperationInterface;
 
 public class Addition implements OperationInterface {
+    
+    public Addition(){}
 
     @Override
     public double total(double num1, double num2) {
